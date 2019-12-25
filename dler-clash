@@ -3,6 +3,7 @@
 - DOMAIN-SUFFIX,adobe.com,REJECT
 # 学术
 - DOMAIN-SUFFIX,edu.cn,DIRECT
+- DOMAIN-SUFFIX,cnki.net,DIRECT
 - DOMAIN-SUFFIX,elsevier.com,DIRECT
 - DOMAIN-SUFFIX,ieee.org,DIRECT
 - DOMAIN-SUFFIX,engineeringvillage.com,DIRECT
