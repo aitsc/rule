@@ -8,6 +8,6 @@ obj.subscriber.entitlements = {
    }
 };
 
-obj.subscriptions = {};
+obj.subscriber.subscriptions = {};
 
 $done({body: JSON.stringify(obj)});
