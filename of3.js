@@ -9,7 +9,8 @@ obj.registrations = [{
     "user_id": [id.slice(0,8),id.slice(8,12),id.slice(12,16),id.slice(16,20),id.slice(20)].join("-"),
     "bundle_id": "com.omnigroup.OmniFocus3.iOS",
     "purchased_product_ids": ["ITOF3_SUB_ANNUAL"],
-    "receipt_data": btoa(atob(receipt).replace("@@@@@@",email).replace("&&&&&&",id)),
+    "receipt_data": receipt,
+//     "receipt_data": btoa(atob(receipt).replace("@@@@@@",email).replace("&&&&&&",id)),
     "description": "OmniFocus Subscription Annual",
     "transaction_id": "330000565002995",
     "product": "OmniFocus 3 Pro iOS"
