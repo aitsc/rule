@@ -9,7 +9,7 @@ var obj = JSON.parse($response.body);
  obj={
  "data": {
   "is_vip": "1",
-  "vip_expired": "4092599349",
+  "vip_expired": "2292599349",
   "is_vip_now": true
  },
  "error": false,
